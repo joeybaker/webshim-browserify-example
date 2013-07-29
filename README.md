@@ -1,8 +1,7 @@
-# webshim-browserify
+# webshim-browserify-example
 
-A bare minimum example showing how to integrate the awesome webshim library with browserify.
+A minimum example showing how to integrate webshim and browserify.
 
-It's a bit complicated so this will serve as a good starting point for projects.
 
 ### Installation
 
