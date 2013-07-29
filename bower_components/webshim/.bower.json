@@ -9,5 +9,5 @@
     "commit": "4874269f54b4242fbf16abee7f6180b382e61ff0"
   },
   "_source": "git://github.com/aFarkas/webshim.git",
-  "_target": "~1.10.10"
+  "_target": "~1.10"
 }
