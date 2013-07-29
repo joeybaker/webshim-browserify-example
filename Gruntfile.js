@@ -28,4 +28,6 @@ module.exports = function(grunt) {
   
   // so much smarter than manually requiring
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+  
+  grunt.registerTask('js', ['shell:cpShims', 'browserify'])
 };
