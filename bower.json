@@ -1,0 +1,13 @@
+{
+    "name": "webshim-browserify-example",
+    "version": "0.0.0",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "webshim": "~1.10",
+        "jquery": "~1.9"
+    }
+}
