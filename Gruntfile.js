@@ -17,14 +17,15 @@ module.exports = function(grunt) {
 	            }
 	          }
 	        }
-	      }
-	  	},
-
-	  	shell: {
-			cpShims: {
-				command: 'rm -rf public/js/shims && cp -r bower_components/webshim/demos/js-webshim/dev/shims public/js/lib'
-			}
-		}
-	});
-
+	    }
+    },
+    shell: {
+      cpShims: {
+        command: 'rm -rf public/js/shims && cp -r bower_components/webshim/demos/js-webshim/dev/shims public/js/lib'
+      }
+    }
+  });
+  
+  // so much smarter than manually requiring
+  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 };
