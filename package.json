@@ -1,0 +1,14 @@
+{
+  "name": "webshim-browserify-example",
+  "version": "0.0.0",
+  "description": "A bare minimum example showing how to integrate the awesome webshim library via browserify",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-browserify": "~1.2.1",
+    "grunt": "~0.4.1",
+    "browserify-shim": "~2.0.8",
+    "browserify": "~2.25.1"
+  },
+  "author": "",
+  "license": "BSD"
+}
