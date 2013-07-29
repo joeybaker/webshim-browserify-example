@@ -18,3 +18,7 @@ bower install
 
 ```
 
+### Usage
+Add any JS to `js/main.js` (or require it from there). Run `grunt js` to compile.
+
+It's probably a good idea to setup a watch task to do that for you.
